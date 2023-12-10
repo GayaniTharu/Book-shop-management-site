@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Bookshop</title>
+</head>
+<body>
+
+    <header>
+        <div class="banner">
+            <h1 style="color: darkmagenta; text-align: center;" > Nuwana Bookshop</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#items">Items</a></li>
+                    <li><a href="#animation">Animation</a></li>
+                    <li><a href="#price">Price List</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <!-- Section 1: About Us with Images -->
+        <section id="about">
+            <h1>About Us</h1>
+            <div class="image-container">
+                <img src="image/download (1).jpg" alt="Image 1">
+                <img src="image/download (2).jpg" alt="Image 2">
+                <img src="image/download (3).jpg" alt="Image 3">
+                <img src="image/download.jpg" alt="Image 4">
+                <img src="image/images.jpg" alt="Image 5">
+            </div>
+        </section>
+
+        <!-- Section 2: Items -->
+        <section id="items">
+            <h1>Items</h1>
+            <ol>
+                <li>Tex Books</li><br>
+                <li>Printed Books</li><br>
+                <li>Pens / Pencils</li><br>
+                <li> Bags</li><br>
+                <li>All the School Items</li><br>
+            </ol>
+        </section>
+
+        <!-- Section 3: Animation -->
+        <section id="animation">
+            <h1>Animation</h1>
+            <div class="animation-container" onmouseover="animateElement()">Hover for Animation</div>
+        </section>
+
+        <!-- Section 4: Price List -->
+        <section id="price">
+            <h1>Price List</h1>
+            <table>
+                <tr>
+                    <th style="background-color: aqua;">Item Name</th>
+                    <th style="background-color: aqua;">Price (LKR)</th>
+                </tr>
+                <!-- Repeat this row for each item -->
+                <tr>
+                    <td>page 200 Rule Book</td>
+                    <td>500</td>
+                </tr>
+                <tr>
+                    <td>Blue pen</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>School bag</td>
+                    <td>2500</td>
+                </tr>
+                <tr>
+                    <td>Printed books</td>
+                    <td>1200</td>
+                </tr>
+                <tr>
+                    <td>Pen case</td>
+                    <td>500</td>
+                </tr>
+                <!-- Repeat as needed -->
+            </table>
+        </section>
+    </main>
+
+    <footer style="background-color: black;">
+        <p style="color: blue;">&copy; 2023 NUWANA Bookshop     |     Address: 1/2 Main Road, Waththala     |     Contact: 076 2297245</p>
+    </footer>
+
+</body>
+</html>
